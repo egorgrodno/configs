@@ -81,17 +81,17 @@ let g:ale_lint_delay =200
 let g:tscompletejob_mappings_disable_default =1
 
 let g:yowish = {
-\ 'term_italic': 1,
+\ 'term_italic':    1,
 \ 'comment_italic': 1,
 \}
 
 let g:ale_linters = {
-\ 'haskell': ['stack_ghc', 'hdevtools', 'hlint', 'hie'],
+\ 'haskell':    ['stack_ghc', 'hdevtools', 'hlint', 'hie'],
 \ 'typescript': ['tsserver', 'tslint'],
 \}
 
 let g:ale_fixers = {
-\ 'haskell': ['brittany'],
+\ 'haskell':    ['brittany'],
 \ 'typescript': ['tslint', 'prettier'],
 \}
 
