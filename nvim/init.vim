@@ -55,7 +55,7 @@ set showcmd
 set smartcase
 set swapfile
 
-set conceallevel =1
+set conceallevel =2
 set dir          =~/.vimtmp
 set encoding     =UTF-8
 set history      =999
