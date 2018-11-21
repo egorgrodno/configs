@@ -157,6 +157,7 @@ nmap <silent> <C-j>      <Plug>(ale_next_wrap)
 nmap <silent> <C-k>      <Plug>(ale_previous_wrap)
 nmap <silent> <leader>e  <Plug>(ale_detail)
 nmap <silent> <leader>d  :ALEGoToDefinitionInTab<CR>
+nmap <silent> <leader>h  :ALEHover<CR>
 nmap <silent> <leader>rf <Plug>(TsCompleteJobReferences)
 nmap <silent> <leader>rn <Plug>(TsCompleteJobRename)
 nmap <silent> <leader>f  :ALEFix<CR>
